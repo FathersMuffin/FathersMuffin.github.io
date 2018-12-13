@@ -36,9 +36,9 @@ b, strong {
 dfn {
   font-style: italic; }
 
-/*h1 {
+h1 {
   font-size: 2em;
-  margin: .67em 0; }*/
+  margin: .67em 0; }
 
 mark {
   background: #ff0;
@@ -629,7 +629,7 @@ header {
       color: rgba(0, 0, 0, 0.7); }
       header nav a:hover {
         color: black; }
-  /*header h1 {
+  header h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
@@ -647,7 +647,7 @@ header {
     text-align: center;
     letter-spacing: 0.05em;
     color: white;
-    line-height: 1; }*/
+    line-height: 1; }
 
 @media (max-width: 640px) {
   header {
@@ -656,8 +656,8 @@ header {
       float: none;
       text-align: center;
       padding-top: 90px; }
-    /*header h1 {
-      padding-top: 0px; } }*/
+    header h1 {
+      padding-top: 0px; } }
 footer {
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
   footer .lockup {
